@@ -1,0 +1,35 @@
+{
+  "name": "nexus-orchestrator",
+  "version": "1.0.0",
+  "description": "Nexus Orchestrator — Plataforma Multi-Agente com RAG, Roteamento Semântico e Telemetria de LLM",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "server": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "express": "^5.1.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.5",
+    "vitest": "^3.1.1"
+  }
+}
